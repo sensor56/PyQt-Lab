@@ -11,7 +11,7 @@ from PyQt4.QtCore import * # inclut QTimer..
 import os,sys
 from cv2 import * # importe module OpenCV
 
-sys.path.insert(0,'/home/xavier/www/mon_arduino/python_avec_arduino/mes_libs_python/') # si pas path système 
+#sys.path.insert(0,'/home/xavier/mes_libs_python/') # si pas path système 
 from pyqtcv import * # importe librairie perso comportant fonctions utiles pour utiliser opencv avec pyqt
 import buffers # importe module pyqtcv pour partage des buffers OpenCV utiles
 
